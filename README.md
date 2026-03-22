@@ -1,2 +1,4 @@
 # PORTFOLIO-WEBSITE
-Developed a personal portfolio website to showcase my skills, projects, and resume. Designed a clean and responsive user interface using HTML, CSS, and JavaScript, ensuring smooth navigation and accessibility across different devices for a better user experience.
+I created a personal portfolio website to showcase my skills, projects, and resume in a simple and professional way. The idea was to build something that clearly reflects my work and makes it easy for others to explore what I’ve done.
+
+I designed the website with a clean and modern look using HTML, CSS, and JavaScript. I also made sure it works smoothly on different devices like phones, tablets, and desktops, so anyone can access it easily without any issues.
