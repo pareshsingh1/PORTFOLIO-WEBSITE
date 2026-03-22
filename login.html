@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>'
+    <link rel="stylesheet" href="login.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $("#loginForm").submit(function(event) {
+        event.preventDefault();
+
+        var username = $("#username").val();
+        var password = $("#password").val();
+
+        if (username == "9493" && password == "prj101") {
+          window.location.href = "r.html";
+        } else {
+          alert("Username or Password is Incorrect.");
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+   <header>
+    <img src="p2.jpg" height="100px" width="100px">
+    <nav class="navigation">
+        <a href="#">Home</a> |
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+</header>
+
+<div class="welcome-text">
+    <h1>Welcome to Your Portfolio</h1>
+  </div>         
+  
+  <div class="login-container">
+    <h2>Login to Your Account</h2>
+    <form id="loginForm" action="login_process.php" method="post">
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+<div class="remember-forget">
+                    <label>
+                        <input type="checkbox">
+                        Remember me</label>
+                        <a href="#">Forget Password</a>
+                    </label>
+                </div><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+     </div>    
+</body>
+</html>
